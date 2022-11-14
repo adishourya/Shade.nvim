@@ -105,7 +105,7 @@ local function filter_wininfo(wininfo)
     col    = wininfo.wincol - 1,
     width  = wininfo.width,
     -- height = wininfo.height,
-		height = wininfo.height + (wininfo.winbar or 0) + 1
+		height = wininfo.height + (wininfo.winbar or 0) + 0.5
   }
 end
 
